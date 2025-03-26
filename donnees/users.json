@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Arina",
+        "email": "arina.meshitbayeva@mail.ru",
+        "password": "$2y$10$KTD5xkiYzD9H8X579UW7C.w8PfHQ\/0RURP5fRjBlUzifuUqDsuW\/a",
+        "role": "traducteur",
+        "verified": true
+    },
+    {
+        "name": "Admin",
+        "email": "baurzhan21@inbox.ru",
+        "password": "$2y$10$tDBedUe9uTrCA\/qfOUg74.dxmTt24Ch8uuqS15PbRNRdOaPxoEU6K",
+        "role": "admin",
+        "verified": true
+    },
+    {
+        "name": "Vadim",
+        "email": "vad.kotkin@yandex.ru",
+        "password": "$2y$10$RitHPSCtQrCQAJt3cn7c7.02BSryxgH30hznYCA6maqO3iOIOoS0C",
+        "role": "chef",
+        "verified": true
+    },
+    {
+        "name": "TairTest",
+        "email": "btair04@gmail.com",
+        "password": "$2y$10$M1oj8n1hvINjX7T9ho3Rv.I\/FNW4cjjOqMEpLCeGwMsHoABhrjp3y",
+        "role": "chef",
+        "verified": true,
+        "role2": "traducteur"
+    }
+]

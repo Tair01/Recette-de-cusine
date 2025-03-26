@@ -1,0 +1,408 @@
+[
+    {
+        "id": 1,
+        "fr": "Chakchouka",
+        "en": "Shakshouka",
+        "author": "btair04@gmail.com",
+        "ingredients": {
+            "fr": [
+                "6 tomates\r",
+                "poivron vert\r",
+                "poivron rouge\r",
+                "2 gousses d'ail\r",
+                "oignon\r",
+                "poivre\r",
+                "sel\r",
+                "huile d'olive\r",
+                "4 ouefs"
+            ],
+            "en": [
+                "6 tomatoes\r",
+                "green pepper\r",
+                "red pepper\r",
+                "2 cloves of garlic\r",
+                "onion\r",
+                "pepper\r",
+                "salt\r",
+                "olive oil\r",
+                "4 eggs"
+            ]
+        },
+        "etapes": {
+            "fr": [
+                "\u00c9mincer l'oignon et \u00e9craser l'ail au presse ail. Faire cuire 15 minutes avec l'huile et une cuill\u00e8re \u00e0 soupe d'eau\r",
+                "Plonger les tomates dans une casserole d'eau bouillante pendant 15 secondes et les sortir. Les \u00e9plucher, les couper en 6 et retirer la pulpe.\r",
+                "\u00c9plucher les poivrons en les pla\u00e7ant 15 minutes sous le grill du four. Les nettoyer et les couper en petites lamelles.\r",
+                "Ajouter les tomates et les poivrons dans la cocotte, saler et poivrer. Laisser mijoter environ 30 minutes.\r",
+                "Au moment de servir, casser les oeufs sur les l\u00e9gumes et laisser cuire quelques minutes."
+            ],
+            "en": [
+                "Slice the onion and crush the garlic with a garlic press. Cook for 15 minutes with the oil and a tablespoon of water\r",
+                "Put the tomatoes in a pan of boiling water for 15 seconds and remove them. Peel them, cut them into 6 and remove the pulp.\r",
+                "Peel the peppers and place them under the grill for 15 minutes. Clean them and cut them into small strips.\r",
+                "Add the tomatoes and peppers to the casserole dish, season with salt and pepper. Simmer for about 30 minutes.\r",
+                "When ready to serve, crack the eggs over the vegetables and cook for a few minutes."
+            ]
+        },
+        "gluten": false,
+        "vegan": true,
+        "status": "terminee",
+        "likes": 2,
+        "liked_by": [
+            "arina.meshitbayeva@mail.ru",
+            "baurzhan21@inbox.ru"
+        ],
+        "comments": [
+            {
+                "user": "Admin",
+                "text": "une bonne recette, j'ai aime))"
+            },
+            {
+                "user": "Arina",
+                "text": "cool j'aime bien!!!"
+            },
+            {
+                "user": "Tair",
+                "text": "delicious))"
+            },
+            {
+                "user": "Admin",
+                "text": "fhdfshkfhjdshfd"
+            },
+            {
+                "user": "Admin",
+                "text": "Hello everyone!"
+            },
+            {
+                "user": "Admin",
+                "text": "cdsjhcdhjsjvds"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "fr": "P\u00e2tes \u00e0 la carbonara",
+        "en": "Carbonara",
+        "author": "",
+        "ingredients": {
+            "fr": [
+                "oignon",
+                "250g de lardons ",
+                "poivre",
+                "1 pinc\u00e9e de sel",
+                "50 cl de cr\u00e8me fra\u00eeche",
+                "500g de p\u00e2tes",
+                "3 jaunes d'oeuf"
+            ],
+            "en": [
+                "onion",
+                "250g bacon",
+                "pepper",
+                "1 pinch of salt",
+                "50 cl cr\u00e8me fra\u00eeche",
+                "500g pasta",
+                "3 egg yolks"
+            ]
+        },
+        "etapes": {
+            "fr": [
+                "Cuire les p\u00e2tes dans un grand volume d'eau bouillante sal\u00e9e.",
+                "Emincer les oignons et les faire revenir \u00e0 la po\u00eale. D\u00e8s qu'ils ont bien dor\u00e9s, y ajouter les lardons.",
+                "Pr\u00e9parer dans un saladier la cr\u00e8me fra\u00eeche, les oeufs, le sel, le poivre et m\u00e9langer.",
+                "Retirer les lardons du feu d\u00e8s qu'ils sont dor\u00e9s et les ajouter \u00e0 la cr\u00e8me.",
+                "Une fois les p\u00e2tes cuite al dente, les \u00e9goutter et y incorporer la cr\u00e8me. Remettre sur le feu si le plat a refroidi.",
+                "Servir et bon app\u00e9tit ! Vous pouvez \u00e9galement agr\u00e9menter votre plat avec des champignons."
+            ],
+            "en": [
+                "Cook the pasta in a large volume of boiling salted water.",
+                "Slice the onions and fry them in a pan. As soon as they are golden brown, add the bacon.",
+                "Prepare the cr\u00e8me fra\u00eeche, eggs, salt and pepper in a salad bowl and mix.",
+                "Remove the bacon from the heat as soon as it is golden brown and add it to the cream.",
+                "Once the pasta is cooked al dente, drain it and add the cream. Return to the heat if the dish has cooled.",
+                "Serve and enjoy! You can also garnish your dish with mushrooms."
+            ]
+        },
+        "gluten": false,
+        "vegan": false,
+        "status": "terminee",
+        "likes": 0,
+        "liked_by": [],
+        "comments": [
+            {
+                "user": "Tair",
+                "text": "c'est avec gluten ou pas?"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "fr": "Pepperoni",
+        "en": "Pepperoni",
+        "author": "btair04@gmail.com",
+        "ingredients": {
+            "fr": [
+                "p\u00e2te \u00e0 pizza",
+                "200g de sauce tomate",
+                "150g de mozzarella",
+                "100g de pepperoni",
+                "origan",
+                "huile d'olive"
+            ],
+            "en": [
+                "pizza dough",
+                "200g tomato sauce",
+                "150g mozzarella",
+                "100g pepperoni",
+                "oregano",
+                "olive oil"
+            ]
+        },
+        "etapes": {
+            "fr": [
+                "Pr\u00e9chauffer le four \u00e0 220\u00b0C.",
+                "\u00c9taler la p\u00e2te \u00e0 pizza et ajouter la sauce tomate.",
+                "R\u00e9partir la mozzarella r\u00e2p\u00e9e sur la sauce.",
+                "Ajouter les tranches de pepperoni.",
+                "Saupoudrer d'origan et ajouter un filet d'huile d'olive.",
+                "Cuire au four pendant 10-12 minutes jusqu'\u00e0 ce que le fromage soit fondu et dor\u00e9."
+            ],
+            "en": [
+                "Preheat the oven to 220\u00b0C.",
+                "Roll out the pizza dough and spread the tomato sauce.",
+                "Sprinkle grated mozzarella over the sauce.",
+                "Add the pepperoni slices.",
+                "Sprinkle with oregano and drizzle with olive oil.",
+                "Bake in the oven for 10-12 minutes until the cheese is melted and golden."
+            ]
+        },
+        "gluten": true,
+        "vegan": false,
+        "status": "terminee",
+        "likes": 0,
+        "liked_by": [],
+        "comments": []
+    },
+    {
+        "id": 4,
+        "fr": "Tom yum",
+        "en": "Tom yum",
+        "author": "",
+        "ingredients": {
+            "fr": [
+                "500ml de bouillon de poulet",
+                "2 tiges de citronnelle",
+                "3 feuilles de combava",
+                "1 piment rouge",
+                "200g de crevettes",
+                "100g de champignons",
+                "2 cuill\u00e8res \u00e0 soupe de sauce de poisson",
+                "1 cuill\u00e8re \u00e0 soupe de jus de citron vert",
+                "1 cuill\u00e8re \u00e0 caf\u00e9 de sucre"
+            ],
+            "en": [
+                "500ml chicken broth",
+                "2 stalks lemongrass",
+                "3 kaffir lime leaves",
+                "1 red chili",
+                "200g shrimp",
+                "100g mushrooms",
+                "2 tablespoons fish sauce",
+                "1 tablespoon lime juice",
+                "1 teaspoon sugar"
+            ]
+        },
+        "etapes": {
+            "fr": [
+                "Faire chauffer le bouillon de poulet dans une casserole.",
+                "Ajouter la citronnelle, les feuilles de combava et le piment coup\u00e9 en morceaux.",
+                "Laisser mijoter pendant 5 minutes.",
+                "Ajouter les champignons et les crevettes, puis cuire encore 3 minutes.",
+                "Incorporer la sauce de poisson, le jus de citron vert et le sucre.",
+                "Servir chaud."
+            ],
+            "en": [
+                "Heat the chicken broth in a saucepan.",
+                "Add the lemongrass, kaffir lime leaves, and chopped chili.",
+                "Simmer for 5 minutes.",
+                "Add the mushrooms and shrimp, then cook for another 3 minutes.",
+                "Stir in the fish sauce, lime juice, and sugar.",
+                "Serve hot."
+            ]
+        },
+        "gluten": false,
+        "vegan": false,
+        "status": "terminee",
+        "likes": 0,
+        "liked_by": [],
+        "comments": []
+    },
+    {
+        "id": 5,
+        "fr": "Ratatouille",
+        "en": "Ratatouille",
+        "author": "",
+        "ingredients": {
+            "fr": [
+                "1 aubergine",
+                "1 courgette",
+                "1 poivron rouge",
+                "1 oignon",
+                "2 tomates",
+                "2 gousses d'ail",
+                "huile d'olive",
+                "herbes de Provence"
+            ],
+            "en": [
+                "1 eggplant",
+                "1 zucchini",
+                "1 red bell pepper",
+                "1 onion",
+                "2 tomatoes",
+                "2 garlic cloves",
+                "olive oil",
+                "Herbes de Provence"
+            ]
+        },
+        "etapes": {
+            "fr": [
+                "Couper les l\u00e9gumes en d\u00e9s.",
+                "Faire revenir l'oignon et l'ail dans de l'huile d'olive.",
+                "Ajouter l'aubergine et cuire 5 minutes.",
+                "Ajouter la courgette et le poivron, cuire encore 5 minutes.",
+                "Incorporer les tomates et les herbes de Provence.",
+                "Laisser mijoter 20 minutes \u00e0 feu doux.",
+                "Servir chaud ou froid."
+            ],
+            "en": [
+                "Dice the vegetables.",
+                "Saut\u00e9 the onion and garlic in olive oil.",
+                "Add the eggplant and cook for 5 minutes.",
+                "Add the zucchini and bell pepper, cook for another 5 minutes.",
+                "Stir in the tomatoes and Herbes de Provence.",
+                "Simmer for 20 minutes on low heat.",
+                "Serve hot or cold."
+            ]
+        },
+        "gluten": false,
+        "vegan": true,
+        "status": "terminee",
+        "likes": 0,
+        "liked_by": [],
+        "comments": []
+    },
+    {
+        "id": 6,
+        "fr": "G\u00e2teau au fromage",
+        "en": "Cheesecake",
+        "author": "",
+        "ingredients": {
+            "fr": [
+                "200g de biscuits \u00e9cras\u00e9s\r",
+                "100g de beurre fondu\r",
+                "500g de fromage frais\r",
+                "150g de sucre\r",
+                "2 oeufs\r",
+                "1 cuill\u00e8re \u00e0 caf\u00e9 d'extrait de vanille\r",
+                "200ml de cr\u00e8me fra\u00eeche"
+            ],
+            "en": [
+                "200g crushed biscuits\r",
+                "100g melted butter\r",
+                "500g cream cheese\r",
+                "150g sugar\r",
+                "2 eggs\r",
+                "1 teaspoon vanilla extract\r",
+                "200ml cr\u00e8me fra\u00eeche"
+            ]
+        },
+        "etapes": {
+            "fr": [
+                "M\u00e9langer les biscuits \u00e9cras\u00e9s avec le beurre fondu et tasser au fond d'un moule.\r",
+                "M\u00e9langer le fromage frais, le sucre, les oeufs et la vanille jusqu'\u00e0 obtenir une p\u00e2te homog\u00e8ne.\r",
+                "Verser sur la base de biscuits et cuire \u00e0 160\u00b0C pendant 45 minutes.\r",
+                "Laisser refroidir et r\u00e9frig\u00e9rer pendant au moins 4 heures avant de servir."
+            ],
+            "en": [
+                "Mix the crushed biscuits with melted butter and press into the bottom of a mold.\r",
+                "Mix the cream cheese, sugar, eggs, and vanilla until smooth.\r",
+                "Pour over the biscuit base and bake at 160\u00b0C for 45 minutes.\r",
+                "Let cool and refrigerate for at least 4 hours before serving."
+            ]
+        },
+        "gluten": true,
+        "vegan": false,
+        "status": "publi\u00e9e",
+        "likes": 0,
+        "liked_by": [],
+        "comments": []
+    },
+    {
+        "id": 7,
+        "fr": "fdushfdhshj",
+        "en": "jfjsfjdsjh",
+        "author": "baurzhan21@inbox.ru",
+        "ingredients": {
+            "fr": [
+                "hjdhjshjhds"
+            ],
+            "en": [
+                "jdjshjhdshj"
+            ]
+        },
+        "etapes": {
+            "fr": [
+                "hjgfhjshjfjhd"
+            ],
+            "en": [
+                "hjhsjhjhd"
+            ]
+        },
+        "gluten": true,
+        "vegan": true,
+        "status": "publi\u00e9e",
+        "likes": 0,
+        "comments": []
+    },
+    {
+        "id": 8,
+        "fr": "fjdsjdfsjfhdshfsduhf15",
+        "en": "f1dsfdsf4sdfs5f12",
+        "author": "btair04@gmail.com",
+        "ingredients": {
+            "fr": [
+                "uhfdssssssssssudsifdsfisdufsdfhdjsjf",
+                "fsdbhfbhsfedshfdhfjs",
+                "fksefsfndjsfsguedrg",
+                "askfsekdfgshgr",
+                ""
+            ],
+            "en": [
+                "fdsfuhdhsfdsjfdsf",
+                "ejgrhufndvfgurj",
+                ""
+            ]
+        },
+        "etapes": {
+            "fr": [
+                "fgrjshlghsrhsj"
+            ],
+            "en": [
+                "fjrsgrhsdhjfifj",
+                ""
+            ]
+        },
+        "gluten": true,
+        "vegan": true,
+        "status": "publi\u00e9e",
+        "likes": 1,
+        "comments": [
+            {
+                "user": "TairTest",
+                "text": "C'est nulllllll"
+            }
+        ],
+        "liked_by": [
+            "btair04@gmail.com"
+        ]
+    }
+]

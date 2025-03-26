@@ -1,0 +1,498 @@
+@import "./reset.css";
+
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -0.5px;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.none {
+    display: none !important;
+}
+
+.section {
+    padding: 7px 0;
+}
+
+.title-1 {
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #2C3E50;
+    text-align: center;
+}
+
+/*  Nav   */
+.nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #26292D;
+    background-color: #2C3E50;
+    color: white;
+    letter-spacing: normal;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-right: auto;
+    color: white;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo strong {
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-list__link {
+    color: white;
+    transition: opacity 0.2s ease-in;
+}
+
+.nav-list__link:hover {
+    opacity: 0.8;
+}
+
+.nav-list__link--active {
+    position: relative;
+}
+
+.nav-list__link--active::before {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+}
+
+.change-lang {
+    order: 8;
+    padding: 3px;
+    position: relative;
+    display: flex;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    margin-left: 10px;
+}
+
+/* Header */
+
+.header {
+    padding: 40px 0;
+    min-height: 695px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2C3E50;
+
+    color: white;
+    text-align: center;
+}
+
+.header__wrapper {
+    padding: 0 15px;
+    max-width: 660px;
+}
+
+.header__title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.header__title em {
+    font-style: normal;
+    color: purple;
+}
+
+.header__text {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.333;
+}
+
+.header__text p+p {
+    margin-top: 0.5em;
+}
+
+/* Une barre de recherche d'une recette par des mots cles! */
+.barreDeRech {
+    background: white;
+    max-width: 400px;
+    margin: auto;
+}
+
+.barreDeRech form {
+    position: relative;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.barreDeRech input,
+.barreDeRech button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.barreDeRech input {
+    color: black;
+    width: 100%;
+    height: 42px;
+    padding-left: 15px;
+}
+
+.barreDeRech button {
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border-left: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    /* on centralise  par l'horizontal*/
+    align-items: center;
+    /* on centralise  par la verticale */
+}
+
+.barreDeRech button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: white;
+}
+
+
+/*   Cusines      */
+
+
+.cusines {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.cusine {
+    max-width: 370px;
+    background-color: white;
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/*  Default size for the images: 370 * 430-450     */
+.cusine__img {
+    border-radius: 10px;
+}
+
+.cusine__title {
+    padding: 15px 20px 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #2C3E50;
+}
+
+/*  Cusines details   */
+.cusine-details {
+    margin: 0 auto;
+    max-width: 865px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.cusine-details_img {
+    max-width: 100%;
+    margin-bottom: 40px;
+
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.cusine-details-desk {
+    margin-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+/*      Login    */
+body.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+body.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.wrapper-log {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+.login-1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.forgot_pass a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot_pass a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2C3E50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/*  Like Button    */
+
+
+.or {
+    margin: 11px 0;
+    font-size: 15px;
+    color: #666;
+}
+
+.signup button {
+    background-color: #28a745;
+}
+
+.signup button:hover {
+    background-color: #218838;
+}
+
+.selectRole {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    appearance: none;
+    margin-bottom: 15px;
+}
+
+/*   Admin       */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/*  Ajouter une nouvelle recette    */
+.ajout_recette {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Заголовок */
+.title-ajout {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+/* Container de form  */
+.ajout_recette_form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.label_ajout_recette {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.text_inut,
+.textarea_ajout {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.textarea_ajout {
+    height: 80px;
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.ajout_recette_form button {
+    display: block;
+    /* C'est fait pour savoir si les buttons sont pas dans le inline */
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ajout_recette_form button:hover {
+    background-color: #218838;
+}
+
+
+/*      Footer       */
+.footer {
+    margin-top: auto;
+    padding: 60px 0 50px;
+    background-color: #2C3E50;
+    color: white;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 27px;
+}
+
+.social {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 16px;
+}
