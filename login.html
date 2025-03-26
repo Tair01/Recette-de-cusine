@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette de cusine</title>
+    <link rel="icon" href="img/icons/icon_site.png" type="image/png">
+    <link id="main-style" rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="login">
+    <div class="wrapper-log">
+        <h1 class="login-1" id="loginSlt">Salut</h1>
+        <!-- Une forme pour la connexion de l'utilisateur avec un ajax dans le fichier js/login.js -->
+        <form id="loginForm">
+            <input type="email" id="loginEmail" placeholder="Email" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <!-- Un lien pour avoir un nouveau mot de passe si l'utilisateur a oublie son propre mot de passe -->
+            <p class="forgot_pass">
+                <a href="reset_pass.html" id="motDePasseOubl">Mot de passe oublié</a>
+            </p>
+            <button type="submit" class="connect-btn" id="connectBtnLogin">Se connecter</button>
+            <p class="or" id="ouLogin">ou</p>
+            <div class="signup">
+                <button type="button" id="showRegisterForm" class="signup-btn">S'inscrire</button>
+            </div>
+
+        </form>
+        <!-- Formulaire d'inscription (caché par défaut) avec un ajax dans le fichier js/login.js -->
+        <form id="registerForm" style="display: none;">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="registerEmail" placeholder="Email" required>
+            <input type="password" id="registerPassword" placeholder="Password" required>
+            <select name="role" id="registerRole" class="selectRole">
+                <option value="cuisinier">Cuisinier</option>
+            </select>
+            <button type="submit" class="signup-btn" id="enregistreLogin">S'inscrire</button>
+            <p class="or" id="ouLogin2">ou</p>
+            <div class="signup">
+                <button type="button" id="showLoginForm" class="retour-btn">Retour à la
+                    connexion</button>
+            </div>
+        </form>
+        <!-- Formulaire de vérification (caché par défaut): Apres l'inscription -> un code de verification va etre envoye dans le mail de l'utilisateur -->
+        <form id="verification" style="display: none;">
+            <div>
+                <input type="text" id="verificationCode" placeholder="Enter the verification code">
+                <button type="button" id="verifyBtn" class="verify-btn">Vérifier</button>
+            </div>
+        </form>
+        <p id="message"></p>
+
+
+    </div>
+    <!-- Des ajax pour l'inscripton, la connexion et la verification de code par mail -->
+    <script src="js/login.js"></script>
+    <!-- Deux fichiers avec des script js qui gere la traduction de la page en anglais ou en francais -->
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
